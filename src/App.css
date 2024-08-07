@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,194 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alarm-list {
+  margin-top: 20px;
+
+
+}
+
+.alarm-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container div {
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  margin-right: 10px;
+}
+
+.form-container input,
+.form-container select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.form-container button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.form-container button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #333;
+  color: white;
+  height: 60px;
+}
+
+.left-icon, .right-icon {
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.dropdown select {
+  padding: 5px;
+  border: none;
+  background: white;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rebeccapurple;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.left-icon, .right-icon {
+  cursor: pointer;
+}
+
+.left-icon svg, .right-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.alarm-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.alarm-item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.alarm-item h2 {
+  margin: 0;
+}
+
+.alarm-item p {
+  margin: 5px 0;
+}
+*/
+
+
+/* App.css */
+
+/* General styles for the application */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-icon, .right-icon {
+  cursor: pointer;padding: 10px;fill: #FFFFFF;
+}
+
+.dropdown select {
+  padding: 5px;
+}
+
+AlarmList styles
+.alarm-list {
+  padding: 20px;
+}
+
+.alarm-item {
+  background-color: #eaeaea;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  text-align: left;
+}
+
+.alarm-item h2 {
+  margin: 0;
+}
+
+.alarm-item p {
+  margin: 5px 0;
 }

@@ -1,0 +1,39 @@
+.alarm-list {
+    padding: 20px;
+  }
+  
+  .alarm-item {
+    background-color: #EFEFEF;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    transition: background-color 0.4s, box-shadow 0.3s; 
+  }
+  
+  .alarm-item:hover {
+    background-color: #d4d4d4; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .alarm-item h2 {
+    margin: 0;
+  }
+  
+  .alarm-item p {
+    margin: 5px 0;
+    font-family: 'Merriweather', serif;
+  }
+  .alarm-item h2 {
+    color: #0f0e0e; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .alarm-item p {
+    color: #171717; 
+  }
+  
